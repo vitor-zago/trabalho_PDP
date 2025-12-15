@@ -18,28 +18,26 @@ def criar_schema():
     schema = DataFrameSchema({
         
         # TODO 1: Validar cliente_id
-        # - Tipo: int
-        # - Não pode ser nulo (nullable=False)
-        # - Deve ser único (unique=True)
-        # Dica: "cliente_id": Column(int, nullable=False, unique=True),
-        
-        "cliente_id": Column(int, nullable=False, unique=True), 
+        "cliente_id": Column(
+            int,
+            nullable=False,
+            unique=True
+        ),
         
         
         # TODO 2: Validar idade
-        # - Tipo: int
-        # - Valores entre 18 e 80
-        # Dica: Column(int, Check.in_range(18, 80)),
-        
-        "idade": Column(int, Check.in_range(18, 80)),
+        "idade": Column(
+            int,
+            Check.in_range(18, 80)
+        ),
         
         
         # TODO 3: Validar renda_mensal
-        # - Tipo: float
-        # - Valores entre 1000 e 50000
+        "renda_mensal": Column(
+            float,
+            Check.in_range(1000, 50000)
+        ),
         
-        "renda_mensal": Column(float, Check.in_range(1000, 50000)),
-    
         
         # Estas validações já estão prontas como exemplo:
         "tempo_conta_meses": Column(int, Check.in_range(1, 240)),
@@ -48,18 +46,17 @@ def criar_schema():
         
         
         # TODO 4: Validar score_credito
-        # - Tipo: float
-        # - Valores entre 300 e 850
-        
-        "score_credito": Column(float, Check.in_range(300, 850)),
+        "score_credito": Column(
+            float,
+            Check.in_range(300, 850)
+        ),
         
         
         # TODO 5: Validar respondeu_campanha (target)
-        # - Tipo: int
-        # - Valores permitidos: 0 ou 1
-        # Dica: Column(int, Check.isin([0, 1])),
-        
-        "respondeu_campanha": Column(int, Check.isin([0, 1])),
+        "respondeu_campanha": Column(
+            int,
+            Check.isin([0, 1])
+        ),
         
     })
     
@@ -93,7 +90,7 @@ def validar_dados(df):
 # Teste local
 if __name__ == "__main__":
     # Carregar dados para teste
-    df = pd.read_csv("../data/clientes_campanha.csv")
+    df = pd.read_csv("data/clientes_campanha.csv")
     
     # Tentar validar
     try:

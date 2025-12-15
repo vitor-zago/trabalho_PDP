@@ -18,7 +18,7 @@ def carregar_dados(caminho_arquivo):
     # TODO 1: Use pd.read_csv() para carregar o arquivo
     # Dica: df = pd.read_csv(caminho_arquivo)
     
-    df = pd.read_csv('../data/clientes_campanha.csv')
+    df = pd.read_csv('data/clientes_campanha.csv')
     
     return df
 
