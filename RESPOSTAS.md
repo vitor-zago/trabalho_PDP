@@ -3,9 +3,9 @@
 ## Identificação do Grupo
 
 - **Integrantes:**
-  1. Nome: Anna Elisa de Lara
-  2. Nome: Giselle de Oliveira Dias
-  3. Nome: Vitor Zago Capanema
+  1. Nome: Anna Elisa de Lara (annafisica@gmail.com)
+  2. Nome: Giselle de Oliveira Dias (simsgod@gmail.com)
+  3. Nome: Vitor Zago Capanema (zago.vitor@gmail.com)
   4. Nome: ---
 
 ---
@@ -191,9 +191,61 @@ Aprofundando a importância desta etapa no pipeline, a validação e limpeza dos
 
 ### 4.1 Liste os commits que vocês fizeram (copie do git log):
 
-![alt text](image.png)
+![print do git log](image.png)
 
+commit ae8c1dfa1d787a907c609cd05f98e3aa07bfd88e (HEAD -> main, origin/main, origin/HEAD)
+Author: Simsgod <simsgod@gmail.com>
+Date:   Tue Dec 16 18:34:09 2025 -0300
 
+    Atualização com dados do git log
+
+commit b6773800612c188845d7649d1ecb84370b2fc8ba
+Author: Simsgod <simsgod@gmail.com>
+Date:   Mon Dec 15 23:30:20 2025 -0300
+
+    Atualiza respostas e ignora artefatos de modelo treinado
+
+commit d38e994d4bc2bfdbbdefe1a0d1409f8526cf7f62
+Author: Simsgod <simsgod@gmail.com>
+Date:   Mon Dec 15 12:35:56 2025 -0300
+
+    resposta_1
+
+commit 70e70372ab95358ee098b6daec2d9556b9dc3792
+Merge: 511a24d c533a40
+Author: Anna Lara <annafisica@gmail.com>
+Date:   Mon Dec 15 11:09:45 2025 -0300
+
+Merge pull request #1 from vitor-zago/main
+
+    Etapas 3 e 4 concluídas
+
+commit c533a4072cdcfbe22e5735ac4dab720d09b36527
+Author: VITOR-ZAGO <zago.vitor@gmail.com>
+Date:   Mon Dec 15 10:38:30 2025 -0300
+
+    Inclusão da pasta Modelos/arquivo treinar.py/ arquivo validar.py/ modificação do arquivo carregar.py
+
+commit 511a24dc64b175bf41ccb79d2b674e839e50387a
+Author: Anna Elisa de Lara <annafisica@gmail.com>
+Date:   Wed Dec 10 22:58:54 2025 -0300
+
+    Atualização do arquivo "RESPOSTAS.md"
+    com informações relacionadas às etapas 1 e 2 após sua conclusão.
+
+commit a788ae3f7b13a1a12c8cd4ff0247317401fc871a
+Author: Anna Elisa de Lara <annafisica@gmail.com>
+Date:   Wed Dec 10 22:36:05 2025 -0300
+
+    Etapas 1 e 2 concluídas.
+
+commit 9462cd3858eb04141b18d9824f58af063521a45f
+Author: Anna Elisa de Lara <annafisica@gmail.com>
+Date:   Wed Dec 10 21:36:44 2025 -0300
+
+    Commit Inicial - Criação do Repositório com
+    arquivos iniciais disponibilizados pelo professor.
+(END)
 
 ### 4.2 Por que mensagens de commit descritivas são importantes?
 
